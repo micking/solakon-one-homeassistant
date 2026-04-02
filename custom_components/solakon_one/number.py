@@ -141,6 +141,16 @@ NUMBER_ENTITY_DESCRIPTIONS: tuple[NumberEntityDescription, ...] = (
         native_max_value=3600,
         native_step=10,
     ),
+    NumberEntityDescription(
+        key="export_power_limit",
+        mode=NumberMode.BOX,
+        device_class=NumberDeviceClass.POWER,
+        entity_category=EntityCategory.CONFIG,
+        native_unit_of_measurement=UnitOfPower.WATT,
+        native_min_value=0,  #  
+        native_max_value=1200,  # 1200W 
+        native_step=100,
+    ),
 )
 
 FORCE_DURATION_NUMBER_ENTITY_DESCRIPTION = NumberEntityDescription(

@@ -45,6 +45,9 @@
       "force_power": {
         "name": "Force mode power"
       },
+      "export_power_limit": {
+        "name": "Max Power AC"
+      },
       "maximum_soc": {
         "name": "Maximum state of charge"
       },

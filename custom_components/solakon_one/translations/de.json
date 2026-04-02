@@ -45,6 +45,9 @@
       "force_power": {
         "name": "Modus überschreiben Leistung"
       },
+      "export_power_limit": {
+        "name": "Max Leistung Steckdose"
+      },
       "maximum_soc": {
         "name": "Maximaler Ladestand"
       },
